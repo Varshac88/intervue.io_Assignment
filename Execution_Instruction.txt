@@ -1,0 +1,25 @@
+Install Dependencies
+Ensure Python is installed, then install the required packages by running:
+pip install selenium webdriver-manager
+
+
+Run the Script
+Execute the script using:
+python test1.py
+
+
+
+What the Script Does
+
+Launches Chrome browser using webdriver-manager (no manual driver download needed).
+
+Navigates to https://www.intervue.io.
+
+Clicks the “Login” link and selects “For Companies.”
+
+Logs in using the provided credentials.
+
+Searches for the term "hello".
+
+Logs out and closes the browser.
+
